@@ -1,6 +1,7 @@
 .p1,
 .p2,
-.p3 {
+.p3,
+.p4 {
     display: none;
 }
 
@@ -24,4 +25,15 @@ nav a {
 body {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.a {
+    text-orientation: initial;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+    background: url("../IMAGES/4.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%
 }
