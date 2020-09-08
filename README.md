@@ -48,15 +48,15 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## Built with
 
-1.html (https://www.w3schools.com/html/default.asp)
+1. [Html](https://www.w3schools.com/html/default.asp)
 
-2.css (https://www.w3schools.com/css/css_colors.asp)
+2. [Css](https://www.w3schools.com/css/css_colors.asp)
 
-3.Javascript://https://javascript.info/ifelse
+3. [Javascripts](https://javascript.info/ifelse)
 
-4.Bootstrap:https://getbootstrap.com/docs/4.5/components/jumbotron/
+4. [Bootstrap](https://getbootstrap.com/docs/4.5/components/jumbotron/)
 
-5.JQuery:https://jquery.com/
+5. [JQuery](https://jquery.com/)
 
 # To-do
 
