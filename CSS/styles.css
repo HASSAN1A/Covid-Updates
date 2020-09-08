@@ -47,3 +47,9 @@ body {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+#infosection{
+    background: url("../IMAGES/4.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
