@@ -1,0 +1,27 @@
+.p1,
+.p2,
+.p3 {
+    display: none;
+}
+
+.logo {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    color: white;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(87, 33, 33);
+    padding: 1px;
+}
+
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
