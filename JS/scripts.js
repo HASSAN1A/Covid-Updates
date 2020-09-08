@@ -34,4 +34,14 @@ $(document).ready(function () {
     $("#submit").click(function(event){
         event.preventDefault();
     });
+    $('li').click(function(){
+        var input = $(this).find('input');
+        if (input.length>0) {
+            if (input[0].checked) {
+                input[0].checked = false
+            } else {
+                input[0].checked = true
+            };
+        };
+    });
 });
