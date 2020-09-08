@@ -15,8 +15,7 @@ Here is a working live demo :
 
 ### Landing Page
 
-This web app starts with a brief introduction on the about us section and services then when you click on the three what we do icons ,message will toggle upon each click to demonstrate further on what the studio does.It also created a portfolio area on previous projects,this is achieved by hovering the cursor over each picture to show case each project.
-Then finally it will extract users comments by filling the form to get important feedback from studio users.To achieve this applies the mail chimp API to track all the emails and messages from your users to help in tracking progress and analyzing.
+This web app starts with a brief introduction on the doubts being cast on the Corona briefings that the figures are not real to cast out the doubts,we came up with this web app whereby this web app is used in each and every hospital where each and every covid patients data is recorded directly to the system and shared centrally to the ministry of health to be used for decision making and cast the doubts out of the public.
 
 ![](https://github.com/HASSAN1A/Covid-Updates)
 
@@ -65,18 +64,18 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## Team
 
-[Hassan Juma ](https://github.com/HASSAN1A)
+1. [Hassan Juma ](https://github.com/HASSAN1A)
 
-[Isaac Njeru](https://github.com/njeruisaac)
+2. [Isaac Njeru](https://github.com/njeruisaac)
 
-[Mariam Osman](https://github.com/Mariannalove)
+3. [Mariam Osman](https://github.com/Mariannalove)
 
-[George Onyango](https://github.com/George-Onyango)
+4. [George Onyango](https://github.com/George-Onyango)
 
-[Prince Mumo](https://github.com/Princeyyyy)
+5. [Prince Mumo](https://github.com/Princeyyyy)
 
 ## [License](https://github.com/HASSAN1A/Covid-Updates/blob/master/LICENSE.md)
 
-[MIT](https://github.com/HASSAN1A/Covid-Updates/blob/master/LICENSE.md) © [Hassan Juma](https://github.com/HASSAN1A)[Isaac Njeru](https://github.com/njeruisaac) [Mariam Osman](https://github.com/Mariannalove)
+[MIT](https://github.com/HASSAN1A/Covid-Updates/blob/master/LICENSE.md) © [Hassan Juma](https://github.com/HASSAN1A) [Isaac Njeru](https://github.com/njeruisaac) [Mariam Osman](https://github.com/Mariannalove)
 [George Onyango](https://github.com/George-Onyango)
 [Prince Mumo](https://github.com/Princeyyyy)
