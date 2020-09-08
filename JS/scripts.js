@@ -28,6 +28,7 @@ $(document).ready(function () {
         $(".p3").hide(100);
         $(".pic3").show(100);
     });
+
     $(".here").click(function(){
         $(".fill-form").slideToggle(500);
     });
@@ -43,5 +44,16 @@ $(document).ready(function () {
                 input[0].checked = true
             };
         };
+
+});
+$(document).ready(function () {
+    $(".pic4").click(function () {
+        $(".pic4").hide(100);
+        $(".p4").show(100);
+    })
+    $(".p4").click(function () {
+        $(".p4").hide(100);
+        $(".pic4").show(100);
+
     });
 });

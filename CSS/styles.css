@@ -1,6 +1,7 @@
 .p1,
 .p2,
-.p3 {
+.p3,
+.p4 {
     display: none;
 }
 
@@ -25,6 +26,7 @@ body {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .personal{
     list-style-type: none;  
    }
@@ -96,3 +98,15 @@ body {
    .fill-form{
        display: none;
    }
+
+.a {
+    text-orientation: initial;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+    background: url("../IMAGES/4.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%
+}
+
