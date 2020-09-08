@@ -9,31 +9,41 @@
     text-align: center;
 }
 
-nav {
-    text-align: center;
-    color: white;
+.menucontainer {
+    width: 1350px;
+    margin: 0 auto;
 }
-
-nav a {
-    font-family: Arial, Helvetica, sans-serif;
+.header .logo{
+    width: 900px;
+    margin: 0 auto;
+}
+.header{
+    display: inline-block;
+    float: left;
+}
+.header .menu {
+    display: inline-block;
+    width: 100%;
+    background-color: darkblue;
+    height: 50px;
+    line-height: 50px;
+}
+.header .menu ul{
+    display: flex;
+}
+.header .menu ul li {
+    flex: auto;
+    text-align: center;
+}
+.header .menu ul li a {
+    color: #ffff;
     text-decoration: none;
-    text-align: center;
-    color: rgb(87, 33, 33);
-    padding: 1px;
+    font-weight: 500;
 }
-
+.header .menu ul li:hover{
+    background-color: black;
+}
 body {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.a {
-    text-orientation: initial;
-    background-position: center;
-    height: 600px;
-    text-align: center;
-    background: url("../IMAGES/4.webp");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%
 }
