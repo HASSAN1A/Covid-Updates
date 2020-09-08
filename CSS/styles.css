@@ -64,6 +64,9 @@ body {
    #submit{
        justify-content: center;
        border-radius: 10px;
+       padding: 10px;
+       font-size: 18px;
+       font-weight: bolder;
    }
    #name{
        border-radius: 20px;
