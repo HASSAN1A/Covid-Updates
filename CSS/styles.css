@@ -26,7 +26,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .personal{
-    list-style-type: none;   
+    list-style-type: none;  
    }
    .personal ul li{
        list-style-type: none;
@@ -50,7 +50,6 @@ body {
        border: 2px solid #566573;
        box-shadow: beige;
        padding-left: 50px;
-       /* background-image: url(https://www.liftupjesus.com/wp-content/uploads/2017/01/Web_LUJ-Hope-Product-Image450x450.jpg); */
        background-repeat: none;
        background-color: bisque;
        background-size: cover;
@@ -90,4 +89,7 @@ body {
    }
    .basic-info p{
        font-size: 18px;
+   }
+   .fill-form{
+       display: none;
    }

@@ -29,6 +29,6 @@ $(document).ready(function () {
         $(".pic3").show(100);
     });
     $(".here").click(function(){
-        $("#theform").slideToggle(500);
+        $(".fill-form").slideToggle(500);
     })
 });
