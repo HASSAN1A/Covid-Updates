@@ -25,3 +25,69 @@ body {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.personal{
+    list-style-type: none;   
+   }
+   .personal ul li{
+       list-style-type: none;
+       padding: 12px;
+       width: 50%;
+       border-radius: 20px;
+   }
+   #common ul li{
+       cursor: pointer;
+       list-style-type: none;
+   }
+   #less-common ul li{
+       list-style-type: none;
+       cursor: pointer;
+   }
+   #serious ul li{
+       list-style-type: none;
+       cursor: pointer;
+   }
+   #theForm{
+       border: 2px solid #566573;
+       box-shadow: beige;
+       padding-left: 50px;
+       /* background-image: url(https://www.liftupjesus.com/wp-content/uploads/2017/01/Web_LUJ-Hope-Product-Image450x450.jpg); */
+       background-repeat: none;
+       background-color: bisque;
+       background-size: cover;
+       padding-bottom: 20px;
+   }
+   #theForm h2{
+       text-align: center;
+       text-transform: capitalize;
+       font-family: 'Abril Fatface', cursive;
+   
+   }
+   #submit{
+       justify-content: center;
+       border-radius: 10px;
+   }
+   #name{
+       border-radius: 20px;
+   }
+   #local{
+       border-radius: 20px;
+   }
+   #cont{
+       border-radius: 20px;
+   }
+   #pre-ex{
+       border-radius: 20px;
+       padding: 10px;
+   }
+   .fill-form li{
+       font-size: 22px;
+   }
+   .display-4{
+       text-align: center;
+   }
+   .here{
+       cursor: pointer;
+   }
+   .basic-info p{
+       font-size: 18px;
+   }

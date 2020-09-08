@@ -144,11 +144,108 @@
         <div class="container">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
-                    <h1 class="display-4">Fluid jumbotron</h1>
-                    <p class="lead">This is a modified jumbotron that occupies the entire horizontal
-                        space of its
-                        parent.
-                    </p>
+                    <h1 class="display-4">Fill the form below</h1>
+                        <div class="basic-info">
+                            <p>Here lies a form that helps us understand your status better</p>
+                        <div class="here">
+                            <p>Click here to fill in the form.</p>
+                        </div> 
+                            
+                        </div>
+                        <form action="" id="theForm">
+                            <h2>Personal Details</h2>
+                            <div class="fill-form">
+                                <div class="personal">
+                                    <ul>
+                                        <li>
+                                            <input type="text" name="Name" id="name" placeholder="Your name" required>
+                                        </li>
+                                        <li>
+                                            <input type="text" name="Location" id="local" placeholder="Your location" required>
+                                        </li>
+                                        <li>
+                                            <input type="tel" name="Contact" id="cont" placeholder="07........">
+                                        </li>
+                                        <li>
+                                            <input type="text" name="Pre-existing aliment" id="pre-ex" placeholder="Pre-existing disease    eg Diabeties,Asthma.......">
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <h2>Visible Symptoms</h2>
+            
+                                <div id="common">
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox" name="fever" id="">
+                                            Fever
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="dry cough" id="">
+                                            Dry cough
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="tiredness" id="">
+                                            Tiredness
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+            
+                                
+                                <div id="less-common">
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox" name="aches and pains" id="">
+                                            Aches and Pains
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="sore throat" id="">
+                                            Sore throat
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="diarrhoea" id="">
+                                            Diarrhoea
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="conjunctivitis" id="">
+                                            Conjunctivitis
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="headache" id="">
+                                            Headache
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="loss of taste or smell" id="">
+                                            Loss of taste or smell
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="a rash on skin, or dicolouration of fingers or toes" id="">
+                                            A rash on skin, or discolouration of fingers or toes
+                                        </li>
+                                    </ul>
+                                
+                                </div>
+            
+                                <div id="serious">
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox" name="difficulty breathing or shortness of breath" id="">
+                                            Difficulty breathing or shortness of breath
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="chest pain or pressure" id="">
+                                            Chest pains or pressure
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="loss of speech or movement" id="">
+                                            Loss of speech or movement
+                                        </li>
+                                    </ul>
+                                </div>
+                                <input type="button" value="submit" id="submit">
+                            </div>
+                        </form>
                 </div>
             </div>
         </div>

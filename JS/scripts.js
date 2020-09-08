@@ -28,4 +28,7 @@ $(document).ready(function () {
         $(".p3").hide(100);
         $(".pic3").show(100);
     });
+    $(".here").click(function(){
+        $("#theform").slideToggle(500);
+    })
 });
