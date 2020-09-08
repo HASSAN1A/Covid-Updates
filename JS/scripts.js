@@ -29,3 +29,13 @@ $(document).ready(function () {
         $(".pic3").show(100);
     });
 });
+$(document).ready(function () {
+    $(".pic4").click(function () {
+        $(".pic4").hide(100);
+        $(".p4").show(100);
+    })
+    $(".p4").click(function () {
+        $(".p4").hide(100);
+        $(".pic4").show(100);
+    });
+});
