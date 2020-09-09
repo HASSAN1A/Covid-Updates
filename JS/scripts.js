@@ -28,31 +28,33 @@ $(document).ready(function () {
         $(".p3").hide(100);
         $(".pic3").show(100);
     });
-});
-$(document).ready(function () {
-    $(".pic4").click(function () {
-        $(".pic4").hide(100);
-        $(".p4").show(100);
-    })
-    $(".p4").click(function () {
-        $(".p4").hide(100);
-        $(".pic4").show(100);
+    $(document).ready(function () {
+        $(".pic4").click(function () {
+            $(".pic4").hide(100);
+            $(".p4").show(100);
+        })
+        $(".p4").click(function () {
+            $(".p4").hide(100);
+            $(".pic4").show(100);
 
+        });
+    });
+
+
+});
+
+$(document).ready(function(){
+    $('li').click(function(){
+        var input = $(this).find('input');
+        if (input.length > 0) {
+            if (input[0].checked) {
+                input[0].checked = false
+            } else {
+                input[0].checked = true
+            };
+        }
+    });
+    $("#submit").click(function (event) {
+        event.preventDefault();
     });
 });
-
-// $(".here").click(function () {
-//     $(".fill-form").slideToggle(500);
-// });
-// $("#submit").click(function (event) {
-//     event.preventDefault();
-// });
-// $('li').click(function () {
-//             var input = $(this).find('input');
-//             if (input.length > 0) {
-//                 if (input[0].checked) {
-//                     input[0].checked = false
-//                 } else {
-//                     input[0].checked = true
-//                 };
-//             };
