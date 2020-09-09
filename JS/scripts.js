@@ -44,7 +44,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function(){
-    $l('li').click(function(){
+    $('li').click(function(){
         var input = $(this).find('input');
         if (input.length > 0) {
             if (input[0].checked) {
