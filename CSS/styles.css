@@ -58,7 +58,6 @@ body {
     box-shadow: beige;
     padding-left: 50px;
     background-repeat: none;
-    background-color: bisque;
     background-size: cover;
     padding-bottom: 20px;
 }
@@ -111,10 +110,6 @@ body {
     font-size: 18px;
 }
 
-.fill-form {
-    display: none;
-}
-
 .a {
     text-orientation: initial;
     background-position: center;
@@ -124,4 +119,9 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%
+}
+.bold{
+    font-weight: bolder;
+    font-size: 38px;
+    text-transform: capitalize;
 }

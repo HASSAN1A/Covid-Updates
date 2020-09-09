@@ -42,18 +42,19 @@ $(document).ready(function () {
 
 
 });
-// $("#submit").click(function (event) {
-//     event.preventDefault();
-// });
-// $(".here").click(function () {
-//     $(".fill-form").slideToggle(500);
-// })
-// $nli ').click(function(){
-// var input = $(this).find('input');
-// if (input.length > 0) {
-//     if (input[0].checked) {
-//         input[0].checked = false
-//     } else {
-//         input[0].checked = true
-//     };
-// };
+
+$(document).ready(function(){
+    $('li').click(function(){
+        var input = $(this).find('input');
+        if (input.length > 0) {
+            if (input[0].checked) {
+                input[0].checked = false
+            } else {
+                input[0].checked = true
+            };
+        }
+    });
+    $("#submit").click(function (event) {
+        event.preventDefault();
+    });
+});
