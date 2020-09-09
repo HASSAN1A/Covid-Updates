@@ -125,6 +125,62 @@ body {
     font-size: 38px;
     text-transform: capitalize;
 }
-.helpline{
-    font-size: 26px;
-}
+
+.icon {
+    display:flex;
+    justify-content: center;
+    
+    
+    }
+    nav a {
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        text-align: center;
+        color: rgb(87, 33, 33);
+        padding: 1px;
+    }
+    
+    body {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    
+    .icons {
+       display: flex;
+       justify-content: center;
+
+    }
+    
+    .footer {
+        display:flex;
+        text-align:center;
+        padding: 2%;
+    
+    }
+    
+    .facebook a {
+       padding: 10px;
+    }
+    
+    .google a {
+      padding: 10px;
+    }
+    
+    .pinterest a {
+        padding: 10px;
+    }
+    
+    .skype a {
+        padding: 10px;
+     }
+    
+     .twitter a {
+        padding: 10px;
+     }
+    
+    
+     .youtube a {
+        padding: 10px;
+     }
+    
