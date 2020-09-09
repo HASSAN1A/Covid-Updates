@@ -1,3 +1,21 @@
+//Business Logic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// User Interface logic
 $(document).ready(function () {
     $(".pic1").click(function () {
         $(".pic1").hide(100);
@@ -55,6 +73,9 @@ $(document).ready(function(){
         }
     });
     $("#submit").click(function (event) {
+        var client = $("#nameDetail").value;
+        alert (' Dear ' + client + ' your form has been received and details are being reviewed you will receive feedback shortly ')
         event.preventDefault();
+        
     });
 });
