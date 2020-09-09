@@ -122,5 +122,6 @@ body {
 }
 .bold{
     font-weight: bolder;
-    font-size: 28px;
+    font-size: 38px;
+    text-transform: capitalize;
 }
