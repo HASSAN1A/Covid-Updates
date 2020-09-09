@@ -120,8 +120,42 @@ body {
     background-size: 100%;
     width: 100%
 }
-.bold{
+
+.bold {
     font-weight: bolder;
     font-size: 38px;
     text-transform: capitalize;
+}
+
+.b {
+    background-color: white
+}
+
+.c {
+    background-color: white;
+    text-orientation: initial;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+    background: url("../IMAGES/c4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%
+}
+
+.d {
+    background-color: white;
+
+}
+
+.e {
+    background-color: white;
+    text-orientation: initial;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+    background: url("../IMAGES/c3.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%
 }
