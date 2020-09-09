@@ -127,7 +127,6 @@ body {
     text-transform: capitalize;
 }
 
-<<<<<<< HEAD
 .b {
     background-color: white
 }
@@ -160,66 +159,65 @@ body {
     background-size: 100%;
     width: 100%
 }
-=======
+
 
 
 
 .icon {
-    display:flex;
+    display: flex;
     justify-content: center;
-    
-    
-    }
-    nav a {
-        font-family: Arial, Helvetica, sans-serif;
-        text-decoration: none;
-        text-align: center;
-        color: rgb(87, 33, 33);
-        padding: 1px;
-    }
-    
-    body {
-        text-align: center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    
-    
-    .icons {
-       display: flex;
-       justify-content: center;
 
-    }
-    
-    .footer {
-        display:flex;
-        text-align:center;
-        padding: 2%;
-    
-    }
-    
-    .facebook a {
-       padding: 10px;
-    }
-    
-    .google a {
-      padding: 10px;
-    }
-    
-    .pinterest a {
-        padding: 10px;
-    }
-    
-    .skype a {
-        padding: 10px;
-     }
-    
-     .twitter a {
-        padding: 10px;
-     }
-    
-    
-     .youtube a {
-        padding: 10px;
-     }
-    
->>>>>>> 9f2c2b1ba602e6a1fd1c44b42432bbaeede04ce8
+
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(87, 33, 33);
+    padding: 1px;
+}
+
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    padding: 2%;
+
+}
+
+.facebook a {
+    padding: 10px;
+}
+
+.google a {
+    padding: 10px;
+}
+
+.pinterest a {
+    padding: 10px;
+}
+
+.skype a {
+    padding: 10px;
+}
+
+.twitter a {
+    padding: 10px;
+}
+
+
+.youtube a {
+    padding: 10px;
+}
