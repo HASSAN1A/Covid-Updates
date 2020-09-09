@@ -42,9 +42,7 @@ $(document).ready(function () {
 
 
 });
-$("#submit").click(function (event) {
-    event.preventDefault();
-});
+
 $(document).ready(function(){
     $l('li').click(function(){
         var input = $(this).find('input');
@@ -55,5 +53,8 @@ $(document).ready(function(){
                 input[0].checked = true
             };
         }
+    });
+    $("#submit").click(function (event) {
+        event.preventDefault();
     });
 });
