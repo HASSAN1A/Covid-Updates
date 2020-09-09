@@ -58,7 +58,6 @@ body {
     box-shadow: beige;
     padding-left: 50px;
     background-repeat: none;
-    background-color: bisque;
     background-size: cover;
     padding-bottom: 20px;
 }
@@ -111,10 +110,6 @@ body {
     font-size: 18px;
 }
 
-.fill-form {
-    display: none;
-}
-
 .a {
     text-orientation: initial;
     background-position: center;
@@ -125,3 +120,67 @@ body {
     background-size: 100%;
     width: 100%
 }
+
+.bold {
+    font-weight: bolder;
+    font-size: 38px;
+    text-transform: capitalize;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    
+    
+    }
+    nav a {
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        text-align: center;
+        color: rgb(87, 33, 33);
+        padding: 1px;
+    }
+    
+    body {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    
+    .icons {
+       display: flex;
+       justify-content: center;
+
+    }
+    
+    .footer {
+        display:flex;
+        text-align:center;
+        padding: 2%;
+    
+    }
+    
+    .facebook a {
+       padding: 10px;
+    }
+    
+    .google a {
+      padding: 10px;
+    }
+    
+    .pinterest a {
+        padding: 10px;
+    }
+    
+    .skype a {
+        padding: 10px;
+     }
+    
+     .twitter a {
+        padding: 10px;
+     }
+    
+    
+     .youtube a {
+        padding: 10px;
+     }
