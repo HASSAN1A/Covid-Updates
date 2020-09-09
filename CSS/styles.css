@@ -120,14 +120,15 @@ body {
     background-size: 100%;
     width: 100%
 }
-.bold{
+
+.bold {
     font-weight: bolder;
     font-size: 38px;
     text-transform: capitalize;
 }
 
 .icon {
-    display:flex;
+    display: flex;
     justify-content: center;
     
     
@@ -183,13 +184,3 @@ body {
      .youtube a {
         padding: 10px;
      }
-
-     .jeremiah{
-         display: flex;
-         background-size: cover;
-     }
-     .fun-fact{
-         background-color: black;
-         color: white;
-     }
-    
