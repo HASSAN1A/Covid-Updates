@@ -183,4 +183,9 @@ body {
      .youtube a {
         padding: 10px;
      }
+
+     .jeremiah{
+         display: flex;
+         background-size: cover;
+     }
     
