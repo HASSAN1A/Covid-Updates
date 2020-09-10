@@ -149,3 +149,65 @@ $(document).ready(function(){
         
     });
 });
+
+$(document).ready(function(){
+    function commonpoints() {
+      var  commonsignstotal = 2,
+      fever = ('#fever'),
+      drycough = ('#drycough'),
+      tiredness = ('#tiredness');
+      var mostcommonsigns = new commonsigns(commonsignstotal, fever, drycough, tiredness);
+      var firsttotal = mostcommonsigns.getTotal();
+
+
+        // corona points total
+        var totalcovidpoints = firsttotal + secondtotal + thirdtotal;
+        return totalCovidPoints
+    }
+
+
+    // less common signs
+        function lesscommonpoints() {
+        var lesspoints = 11,
+        aches = $('#aches'),
+        sorethroat = $('#sore'),
+        diarrhoea = $('#diarrhoea'),
+        conjunctivitis = $('#conjunctivitis'),
+        headache = $('#headache'),
+        lossoftaste = $('#lossoftaste'),
+        rashonskin = $('#rashonskin');
+        var secondsigns = new lesscommon(lesspoints, aches, sorethroat, diarrhoea, conjunctivitis, headache, lossoftaste, rashonskin);
+        var secondtotal = secondsigns.getTotal();
+
+            // corona points total
+        var totalcovidpoints = firsttotal + secondtotal + thirdtotal;
+        return totalCovidPoints
+    }
+
+    
+
+    //serious
+    function seriouspoints() {
+        var serioussigns = 22,
+        shortnessofbreath = $('#shortness'),
+        chestpains = $('#chestpains'),
+        movement = $('#movement');
+        var thirdsigns = new serious(serioussigns, shortnessofbreath, chestpains, movement);
+        var thirdtotal = thirdsigns.getTotal();
+
+
+            // corona points total
+        var totalcovidpoints = firsttotal + secondtotal + thirdtotal;
+        return totalCovidPoints 
+    }
+
+    function calcTotal(){
+        var allofit = total + seriouspoints() + lesscommonpoints() + commonpoints();
+    }
+
+    // corona points total
+    var totalPoints = calcTotal();
+    $('#total').text(totalPoints);
+    var totalcovidpoints = firsttotal + secondtotal + thirdtotal;
+    return totalCovidPoints
+})
