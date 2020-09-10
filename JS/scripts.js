@@ -54,10 +54,10 @@ $(document).ready(function () {
 			newPatient.estate +
 			"</td>" +
 			"<td>" +
-			newPatient.condition +
+			newPatient.status + 
 			"</td>" +
 			"<td>" +
-			newPatient.status +
+			newPatient.condition +
 			"</td>" +
 			"<td>" +
 			'<button class="btn btn-success" id="trace-' +
