@@ -54,7 +54,7 @@ $(document).ready(function () {
 			newPatient.estate +
 			"</td>" +
 			"<td>" +
-			newPatient.status + 
+			newPatient.status +
 			"</td>" +
 			"<td>" +
 			newPatient.condition +
@@ -92,7 +92,7 @@ $(document).ready(function () {
 		var contactEntered = $("#contact1").val();
 		alert(
 			nameEntered +
-			" will be contacted for testing using the number :" +
+			" will be contacted and traced for testing using the number  :  " +
 			contactEntered +
 			"."
 		);
