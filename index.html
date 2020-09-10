@@ -159,17 +159,16 @@
                     <form id="patient-form">
                         <div class="form-group">
                             <label>Hospital</label>
-                            <input type="text" class="form-control" id="hospital" placeholder="Enter Your Hospital"
+                            <input type="text" class="form-control" id="hospital" placeholder="Enter Hospital"
                                 required />
                         </div>
                         <div class="form-group">
                             <label for="">Patient</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter Your Name" required />
+                            <input type="text" class="form-control" id="name" placeholder="Enter Name" required />
                         </div>
                         <div class="form-group">
                             <label>Estate</label>
-                            <input type="text" class="form-control" id="estate" placeholder="Enter Your Estate"
-                                required />
+                            <input type="text" class="form-control" id="estate" placeholder="Enter Estate" required />
                         </div>
                         <div class="form-group">
                             <label>Contact</label>
@@ -179,7 +178,7 @@
                         <div class="form-group">
                             <label for="">Covid Status</label>
                             <select class="form-control" id="status" required>
-                                <option value="">...</option>
+                                <option value="">Choose...</option>
                                 <option value="Positive">Positive</option>
                                 <option value="Negative">Negative</option>
                             </select>
@@ -187,12 +186,17 @@
                         <div class="form-group">
                             <label for="">Pre-Existing Condition</label>
                             <select class="form-control" id="condition" required>
-                                <option value="">...</option>
+                                <option value="">Choose...</option>
                                 <option value="None">None</option>
                                 <option value="Cancer">Cancer</option>
                                 <option value="Diabetes">Diabetes</option>
                                 <option value="AIDS">HIV/AIDS</option>
-                                <option value="Diabetes">Diabetes</option>
+                                <option value="Lung Disease">Lung Disease</option>
+                                <option value="Kidney Disease">Kidney Disease</option>
+                                <option value="Cardivascular Disease">Cardivascular Disease</option>
+                                <option value="Liver Disease">Liver Disease</option>
+                                <option value="Immuncompromised">Immuncompromised</option>
+
 
                             </select>
                         </div>
@@ -212,15 +216,12 @@
                                 <th scope="col">Location</th>
                                 <th scope="col">Covid Status</th>
                                 <th scope="col">Pre-existing</th>
-
                                 <th scope="col">Contact Trace</th>
                             </tr>
                         </thead>
                         <tbody id="patient-summary"></tbody>
                     </table>
-                    <button class="btn btn-primary hidden" id="checkout">
-                        Click here if positive
-                    </button>
+
                 </div>
             </div>
         </div>
@@ -233,16 +234,15 @@
                     <h3>Enter Trace Info</h3>
                     <div class="form-group">
                         <label for="">Patient Name</label>
-                        <input type="text" class="form-control" id="name1" placeholder="Enter  a name" required />
+                        <input type="text" class="form-control" id="name1" placeholder="Enter Name" required />
                     </div>
                     <div class="form-group">
                         <label>Estate</label>
-                        <input type="text" class="form-control" id="estate1" placeholder="Enter Your Estate" required />
+                        <input type="text" class="form-control" id="estate1" placeholder="Enter Estate" required />
                     </div>
                     <div class="form-group">
                         <label>Contact</label>
-                        <input type="text" class="form-control" id="contact1" placeholder="Enter Your Contact"
-                            required />
+                        <input type="text" class="form-control" id="contact1" placeholder="Enter Contact" required />
                     </div>
 
                     <button type="submit" class="btn btn-primary">Submit</button>
