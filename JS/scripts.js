@@ -143,8 +143,8 @@ $(document).ready(function(){
         }
     });
     $("#submit").click(function (event) {
-        var client = $("#nameDetail").value;
-        alert (' Dear ' + client + ' your form has been received and details are being reviewed you will receive feedback shortly ')
+        var clients = $("#name").value;
+        alert (' Dear ' + clients + ' your form has been received and details are being reviewed you will receive feedback shortly ')
         event.preventDefault();
         
     });
