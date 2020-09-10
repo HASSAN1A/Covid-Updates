@@ -28,88 +28,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.personal {
-    list-style-type: none;
-}
 
-.personal ul li {
-    list-style-type: none;
-    padding: 12px;
-    width: 50%;
-    border-radius: 20px;
-}
-
-#common ul li {
-    cursor: pointer;
-    list-style-type: none;
-}
-
-#less-common ul li {
-    list-style-type: none;
-    cursor: pointer;
-}
-
-#serious ul li {
-    list-style-type: none;
-    cursor: pointer;
-}
-
-#theForm {
-    border: 2px solid #566573;
-    box-shadow: beige;
-    padding-left: 50px;
-    background-repeat: none;
-    background-size: cover;
-    padding-bottom: 20px;
-}
-
-#theForm h2 {
-    text-align: center;
-    text-transform: capitalize;
-    font-family: 'Abril Fatface', cursive;
-
-}
-
-#submit {
-    justify-content: center;
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 18px;
-    font-weight: bolder;
-}
-
-#name{
-    border-radius: 20px;
-}
-
-#local {
-    border-radius: 20px;
-}
-
-#cont {
-    border-radius: 20px;
-}
-
-#pre-ex {
-
-    padding: 10px;
-}
-
-.fill-form li {
-    font-size: 22px;
-}
-
-.display-4 {
-    text-align: center;
-}
-
-.here {
-    cursor: pointer;
-}
-
-.basic-info p {
-    font-size: 18px;
-}
 
 .a {
     text-orientation: initial;
@@ -167,57 +86,83 @@ body {
 .icon {
     display: flex;
     justify-content: center;
-    
-    
-    }
-    nav a {
-        font-family: Arial, Helvetica, sans-serif;
-        text-decoration: none;
-        text-align: center;
-        color: rgb(87, 33, 33);
-        padding: 1px;
-    }
-    
-    body {
-        text-align: center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    
-    
-    .icons {
-       display: flex;
-       justify-content: center;
 
-    }
-    
-    .footer {
-        display:flex;
-        text-align:center;
-        padding: 2%;
-    
-    }
-    
-    .facebook a {
-       padding: 10px;
-    }
-    
-    .google a {
-      padding: 10px;
-    }
-    
-    .pinterest a {
-        padding: 10px;
-    }
-    
-    .skype a {
-        padding: 10px;
-     }
-    
-     .twitter a {
-        padding: 10px;
-     }
-    
-    
-     .youtube a {
-        padding: 10px;
-     }
+
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(87, 33, 33);
+    padding: 1px;
+}
+
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    padding: 2%;
+
+}
+
+.facebook a {
+    padding: 10px;
+}
+
+.google a {
+    padding: 10px;
+}
+
+.pinterest a {
+    padding: 10px;
+}
+
+.skype a {
+    padding: 10px;
+}
+
+.twitter a {
+    padding: 10px;
+}
+
+
+.youtube a {
+    padding: 10px;
+}
+
+.total-amount,
+.delivery-cost {
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.hidden {
+    display: none;
+}
+
+.checkout-options,
+.location {
+    color: white;
+    z-index: 5;
+    border-radius: 15px;
+    padding: 20px;
+    width: 60%;
+    height: 100vh;
+    background: rgb(17, 4, 194);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
