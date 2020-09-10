@@ -9,7 +9,7 @@
 
 ## Demo
 
-Here is a working live demo :
+Here is a working live demo :https://hassan1a.github.io/Covid-Updates/
 
 ## Site
 
@@ -25,7 +25,7 @@ The Web is compatible with devices of all sizes and all OS's, and consistent imp
 
 ![](https://github.com/Covid-Updates)
 
-## [Usage]()
+## [Usage](https://hassan1a.github.io/Covid-Updates/)
 
 ### Development
 
