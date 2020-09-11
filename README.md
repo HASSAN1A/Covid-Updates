@@ -48,15 +48,15 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## Built with
 
-1. [Html](https://www.w3schools.com/html/default.asp)
+1. [Html](https://www.w3schools.com/html/default.asp) - The standard markup language for documents designed to be displayed in a web browser.
 
-2. [Css](https://www.w3schools.com/css/css_colors.asp)
+2. [Css](https://www.w3schools.com/css/css_colors.asp) - It describes presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers. CSS is independent of HTML and can be used with any XML-based markup language.
 
-3. [Javascripts](https://javascript.info/ifelse)
+3. [Javascripts](https://javascript.info/ifelse) - It makes a webpage is to be made dynamic and add special effects on pages like rollover, roll out and many types of graphics.
 
-4. [Bootstrap](https://getbootstrap.com/docs/4.5/components/jumbotron/)
+4. [Bootstrap](https://getbootstrap.com/docs/4.5/components/jumbotron/) - Extensive list of components and Bundled Javascript plugins.
 
-5. [JQuery](https://jquery.com/)
+5. [JQuery](https://jquery.com/) - jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
 
 # To-do
 
@@ -76,6 +76,4 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## [License](https://github.com/HASSAN1A/Covid-Updates/blob/master/LICENSE.md)
 
-[MIT](https://github.com/HASSAN1A/Covid-Updates/blob/master/LICENSE.md) © [Hassan Juma](https://github.com/HASSAN1A) [Isaac Njeru](https://github.com/njeruisaac) [Mariam Osman](https://github.com/Mariannalove)
-[George Onyango](https://github.com/George-Onyango)
-[Prince Mumo](https://github.com/Princeyyyy)
+[MIT](https://github.com/HASSAN1A/Covid-Updates/blob/master/LICENSE.md) © [Hassan Juma](https://github.com/HASSAN1A)
