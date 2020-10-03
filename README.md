@@ -64,15 +64,8 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## Team
 
-1. [Hassan Juma ](https://github.com/HASSAN1A)
+  [Hassan Juma ](https://github.com/HASSAN1A)
 
-2. [Isaac Njeru](https://github.com/njeruisaac)
-
-3. [Mariam Osman](https://github.com/Mariannalove)
-
-4. [George Onyango](https://github.com/George-Onyango)
-
-5. [Prince Mumo](https://github.com/Princeyyyy)
 
 ## [License](https://github.com/HASSAN1A/Covid-Updates/blob/master/LICENSE.md)
 
